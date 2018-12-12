@@ -28,7 +28,6 @@ Many of the notebooks are actually RISE presentations (see [here](https://rise.r
 
 ## Viewing the Notebooks read-only and non-interactive
 
-| Notebook | Link | Slides |
-|----|-----|-----|
-| tutorial_20181213| [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) | 
-[![slides](https://img.shields.io/badge/slides%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/format/slides/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) | 
+| Tutorial | As Notebook | As Slides |
+|----------|------|-----|
+| tutorial_20181213 | [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) | [![slides](https://img.shields.io/badge/slides%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/format/slides/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) |
