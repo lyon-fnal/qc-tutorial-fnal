@@ -1,14 +1,12 @@
 # Quantum Computing Tutorials
 
-## December 2018
-
 See the event indico pages for [Thursday 12/13](https://indico.fnal.gov/event/19301/) and 
 [Tuesday 12/18](https://indico.fnal.gov/event/19302/).
 
-Jupyter notebooks used for the tutorial will be here. You can run them several ways...
+Jupyter notebooks used for the tutorial will be here. You can run and interact with them several ways...
 
 
-* Run locally on your laptop with the `lyonfnal/qc-python-ubuntu` Docker image available from Docker Cloud. See [instructions](https://github.com/lyon-fnal/dockerImages/blob/master/tutorial.md). This method is the most reliable and will run very fast if you have a descent laptop. You only incur the set up timne once. This method is **preferred** but it involves installing Docker on your laptop. 
+* Run locally on your laptop with the `lyonfnal/qc-python-ubuntu` Docker image available from Docker Cloud. See [instructions](https://github.com/lyon-fnal/dockerImages/blob/master/tutorial.md). This method is the most reliable and will run very fast if you have a decent laptop. You only incur the set up time once. This method is **preferred** but it involves installing Docker on your laptop. 
 
 * Run in `Binder` by clicking on this badge [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lyon-fnal/qc-tutorial-fnal/master). [Binder](https://mybinder.org) is an open-source and **free** cloud platform for running Jupyter Notebooks. This method is very easy as you don't need to install anything on your laptop. However,  `Binder` may take a very long tine to start as it has to install dependencies, will be slower than running locally, and the availability and stability of `Binder` are not guaranteed. 
 
@@ -16,9 +14,9 @@ Jupyter notebooks used for the tutorial will be here. You can run them several w
 
 * Run locally on your laptop by installing lots of stuff into your OS (see `Dockerfiles` at [lyon-fnal/dockerImages](https://github.com/lyon-fnal/dockerImages) for ideas). This is the most difficult way to run, but could be the fastest. Though the Docker image will be very fast. 
 
-## Viewing a notebook as a presentation
+## Viewing a notebook as an interactive presentation
 
-Many of the notebooks are actually RISE presentations (see [here](https://rise.readthedocs.io/) for more information on RISE). To view the notebook as a presentation, do the following...
+Many of the notebooks are actually RISE presentations (see [here](https://rise.readthedocs.io/) for more information on RISE). To view the notebook as an interactive presentation, do the following...
 
 * From Jupyter Lab (e.g. you are using the `lyonfnal/qc-python-ubuntu` Docker image): RISE does not work in Jupyter Lab, unfortunately, Fortunately, you can still run the notebook in "classic" mode where RISE will work. To do this, click on the painters palette icon on the left side of the screen. That will bring up the command palette. In the search box type `classic` and then at the top click on the link for `Launch Classic Notebook`. Then navigate to the notebook you want. Click on the little box on the tool bar, far right, that looks like a plot. 
 
@@ -26,8 +24,8 @@ Many of the notebooks are actually RISE presentations (see [here](https://rise.r
 
 * From Google Colab: RISE does not run in Colab. 
 
-## Viewing the Notebooks read-only and non-interactive
+## Viewing the notebooks read-only and non-interactive
 
-| Tutorial | As Notebook | As Slides |
+| Tutorial | view as notebook | view as presentation |
 |----------|------|-----|
 | tutorial_20181213 | [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) | [![slides](https://img.shields.io/badge/slides%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/format/slides/github/lyon-fnal/qc-tutorial-fnal/blob/master/tutorial_20181213.ipynb) |
