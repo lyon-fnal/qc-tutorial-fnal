@@ -1,0 +1,15 @@
+name: qc_workshop_fnal
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy
+  - matplotlib
+  - rise
+  - pip:
+      - qutip
+      - projectq
+      - qiskit
+  - scipy
+  - cython
+  - jupyter
